@@ -1,0 +1,148 @@
+@font-face 
+	{
+    	font-family: 'caviar_dreamsregular';
+    	src: url('CaviarDreams-webfont.eot');
+    	src: url('CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         	url('CaviarDreams-webfont.woff') format('woff'),
+         	url('CaviarDreams-webfont.ttf') format('truetype'),
+         	url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+	}
+
+/*general*/
+    body
+        {
+            font-family:'caviar_dreamsregular';
+            background: url("an_angel_with_a_shotgun.jpg") fixed no-repeat;
+            background-size: cover;
+            font-size: 110%;
+        }
+
+    #pageentiere
+        {
+            padding: 2%;
+            width: 75%;
+            min-width: 650px;
+            margin: auto;
+        }
+
+    #header
+        {
+            background: maroon;
+            border-radius: 5px;
+            border: 5px maroon solid;
+            opacity: 0.95;
+            padding: 2%;
+            margin: 2% 1% 2% 1%;
+            display: flex;
+            justify-content:space-between;
+            color: white;
+            position: relative;
+        }
+
+    #liens
+        {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-size: 150%;
+            padding: 2%;
+        }
+
+    #gif
+        {
+            background: white;
+            border-radius: 5px;
+            margin: 2% 1% 2% 1%;
+            position: relative;    
+            padding-bottom: 1.5%; 
+            opacity: 0.95;   
+        }
+
+    #bannière
+        {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 1%;
+            background: rgb(100,100,100);
+            border-radius: 0px 0px 5px 5px;
+            color: white;
+            width: 98%;
+        }
+
+    a:visited
+        {
+            color: white;
+        }
+
+    a:hover
+        {
+            color:rgb(190,230,350)
+        }
+
+    h1
+        {
+            text-align: center;
+        }
+
+    h3
+        {
+            margin-left: 10%;
+            text-decoration: underline;
+        }
+/*general*/
+    
+    #corps
+        {
+            display: flex;
+        }
+
+    #demipage
+        {
+            width: 69%; 
+        }
+
+    #liseret
+        {
+            width: 29%;
+            background: rgb(100,100,100);
+            border-radius: 5px;
+            padding: 2%;
+            margin: 2% 1% 2% 1%;
+            color: white;
+        }
+
+    #image,#demipage
+        {
+            background: white;
+            border-radius: 5px;
+            padding: 2%;
+            margin: 2% 1% 2% 1%;
+            color: maroon;
+            font-size: 120%;
+            opacity: 0.95;
+        }
+
+    #miniature
+        {
+            border: 2px maroon solid;
+            border-radius:2px;
+        }
+
+    #mini
+        {
+            margin: 0% 1% 0% 1%;
+            text-align: center;
+        }
+
+    #images
+        {
+            display: flex;
+        }
+
+    #legende
+        {
+            font-size: 40%;
+        }

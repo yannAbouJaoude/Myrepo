@@ -1,0 +1,79 @@
+<!-- Vive Linux  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <title>Le jeu - Plateau</title>
+    <link rel="stylesheet" href="plateau.css" />
+    
+</head>
+<body>
+
+	
+		<canvas id="canvas" width=555 height=555>
+ 		 <p>Désolé, votre navigateur ne supporte pas Canvas. Mettez-vous à jour</p>
+ 		 <a href="http://www.getfirefox.net/">Télécharge Firefox !</a>
+		</canvas>	
+		
+		<p id="raccourcis">
+			raccourcis : <br/>
+			1 : mode horizontal<br/>
+			2 : mode vertical<br/>
+			5 : effacer formulaires<br/>
+			7 : focus input propositions<br/>
+			9 : focus afficher mot<br/>
+			Ctrl + Retour Arrière : effacer plateau<br/>
+		</p>
+
+		<div id="console">
+			<form name="form1">
+			<h1> La console </h1>
+			<div id="consoleLeft">
+
+				<p>Vos lettres</p>
+				<input type="text" name="input" value="" size=15 maxlength=7 placeholder="Vos lettres" onChange="start()"><input type="button" name="ok" value="OK" onClick="start()"></p><br />
+
+				<p>Lettre à modifier</p>
+				<input type="text" name="afficher_lettre" value="" size=10 maxlength=1 placeholder="Lettre" onChange="affecter_lettre_tableau()"><input type="button" name="ok" value="OK" onClick="affecter_lettre_tableau()"></p><br />
+			</div>
+			<div id="consoleRight">
+				<p>Mot à placer</p>
+				<input type="text" name="afficher_mot" value="" size=15 maxlength=10 placeholder="Mot" onChange="affecter_mot_tableau()"><input type="button" name="ok" value="OK" onClick="affecter_mot_tableau()"></p>
+
+				<p>Direction du mot</p>
+				<select name="direction_mot" size=2>
+					<option value="1" selected>horizontal</option>
+					<option value="2">vertical</option>
+				</select>
+
+				<p>Meilleurs résultats</p>
+				<select name="best_resultats" size=4>
+					<option value="1" selected>###</option>
+					<option value="2">###</option>
+					<option value="3">###</option>
+					<option value="4">###</option>
+				</select>
+				<input type="button" name="ok" value="OK" onClick="affecter_mot_tableau(
+				resultats_tries[document.form1.best_resultats.options[document.form1.best_resultats.selectedIndex].value][0], 
+				resultats_tries[document.form1.best_resultats.options[document.form1.best_resultats.selectedIndex].value][1], 
+				resultats_tries[document.form1.best_resultats.options[document.form1.best_resultats.selectedIndex].value][2], 
+				resultats_tries[document.form1.best_resultats.options[document.form1.best_resultats.selectedIndex].value][3])"></p><br />
+			</div>
+
+			<div id="consoleBottom">
+				<p>Output console <input type="button" name="clear_console_output" value="Clear console" onClick='document.form1.console_output.value="";'></p>
+				<textarea id="console_output" rows="6" cols="50" readonly ></textarea>
+			</div>
+
+		</form>
+
+		</div>
+	
+
+
+
+
+	<script src="plateau.js"></script>
+	<script src="mots.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			
+		<meta charset="utf-8"/>		
+		<title>The Scrable Resolver</title>
+		<link rel="stylesheet" href="TSRCSS.css" />
+		<link rel="stylesheet" media="screen and (max-width: 800px)" href="TSRCSS1_5.css" />
+		<link rel="icon" href="logo.png"/>
+		<script src="plus_ou_moins.js"></script>
+    	<script src="test.js"></script>
+    	<script src="plusmoins.js"></script>
+
+	</head>
+
+	<body id="pagesecrete">
+
+		<div id="pagesesecret">
+
+			<div id="Titre">
+				<center><img id="gif" src="TTSR30.gif"></center>
+			</div>
+
+		<!--plusoumoins-->
+			<h2 id="pagese">Page secrète</h2><p>
+
+			<div id="pomps">
+				<h2>Un petit plus ou moins ?</h2>
+				<form name="form1">
+					<input type="hidden" name="nbmystere"><br />
+
+					<input type="button" name="bouton1" value="Start/Reset" onClick='start(form1)'>
+					<input type="button" name="bouton2" value="OK" onClick="main(form1)"><br />
+					<input type="button" name="rep" value="Réponse" onClick="alert(document.form1.nbmystere.value)"><br />
+							
+					<input type="text" name="input" value="" placeholder="Nb à taper" onChange="main(form1)"><br />
+					<input type="text" name="output" value="" placeholder="Sortie programme"><br />
+				</form>	
+
+				<p>
+					Choisissez un nombre entre 0 et 100
+				</p>
+			</div>
+		<!--plusoumoins-->
+
+			</div>
+		</div>
+	</body>		
+</html>

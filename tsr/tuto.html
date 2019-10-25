@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			
+		<meta charset="utf-8"/>		
+		<link rel="stylesheet" href="TSRCSS.css" />
+		<link rel="stylesheet" media="screen and (max-width: 800px)" href="TSRCSS1_5.css" />
+		<title>The Scrabble Resolver</title>
+		<link rel="icon" href="logo.png"/>
+
+
+		<style>
+			 #mini
+	        {
+	            margin: 0% 1% 0% 1%;
+	            text-align: center;
+	        }
+
+    		#images
+	        {
+	            display: flex;
+	        }
+
+	         #image,#demipage
+	        {
+	            background: white;
+	            border-radius: 5px;
+	            padding: 2%;
+	            margin: 2% 1% 2% 1%;
+	            color: maroon;
+	            font-size: 120%;
+	            opacity: 0.95;
+	        }
+	         #miniature
+	        {
+	            border: 2px maroon solid;
+	            border-radius:2px;
+	        }
+			#legende
+	        {
+	            font-size: 40%;
+	        }
+		</style>
+
+	</head>
+
+	<body>
+		<div id="pageentiere">
+
+			<div id="Titre">
+				<center><img id="gif" src="TTSR30.gif"></center>
+			</div>
+
+			<div id="paragraphe">
+				<div id="presentation">
+					<h2>
+						Mode d'emploi
+					</h2>
+
+					<p>
+						Le mode d'emploi tout propre arrivera peut-être bientôt.<br />
+						En attendant : deux petites images explicatives sur notre résolveur de scrabble tiré de mon dossier. (Steve)
+					</p> 
+
+					<div id="image">
+						<div id="images">
+
+							<div id="mini"><a onclick="doOpenWindow('tuto1.jpg');" target="_blank"><img src="tuto1.jpg" height="100" width="100" id="miniature" title="Première page du mode d'emploi"></a>
+									<figcaption id="legende">Page 1</figcaption></div>
+
+							<div id="mini"><a onclick="doOpenWindow('tuto2.jpg');" target="_blank"><img src="tuto2.jpg" height="100" width="100" id="miniature" title="Deuxième page du mode d'emploi"></a>
+									<figcaption id="legende">Page 2</figcaption></div>
+						
+						</div>
+					</div>
+
+
+				</div>
+
+				
+
+				<div id="source">
+					<h2>
+						Sources
+					</h2>
+						
+					<h3>
+						Images :
+					</h3>
+					<p>
+						<h4>Images par Loundraw</h4>
+							<a href="depression_by_loundraw-d5lh2n62.jpg" target="blank" class="liengene" id="sourcea">Depression by Loundraw</a><br/>
+							<a href="letter_in_the_snow_by_loundraw-d8gvv6z2.jpg" target="blank" class="liengene" id="sourcea">Letter in the snow by Loundraw</a><br/>
+							<a href="http://loundraw.deviantart.com/gallery/" target="blank" class="liengene" id="sourcea">Gallery on Deviantart</a>
+		
+						<h4>Images par NGUYEN Pham Cyril</h4>
+							<a href="TTSR100.gif" target="blank" class="liengene" id="sourcea">Titre en gif</a><br/>
+							<a href="logo.png" target="blank" class="liengene" id="sourcea">Logo</a>
+
+					<h3>
+						Règles du Scrabble :
+					</h3>
+					<a href="http://www.regles-de-jeux.com/regle-du-scrabble/" target="blank" class="liengene" id="sourcea">Règles sur Internet</a>
+
+					<h3>Creepy pasta :</h3>
+					<a href="http://creepypastafromthecrypt.blogspot.fr/2015/10/paternel.html" target="blank" class="liengene" id="sourcea">"Paternel"</a>
+
+					<h3>Plateau de base par Steve MAHOT:</h3>
+					<a href="plateau.html" target="blank" class="liengene" id="sourcea">Plateau</a>
+
+					<h3>Liste de mots</h3>
+					<a href="http://www.pallier.org/ressources/dicofr/dicofr.html" target="blank" class="liengene" id="sourcea">Lien du site</a> <br/>
+					<a href="http://www.pallier.org/ressources/dicofr/liste.de.mots.francais.frgut.txt" target="blank" class="liengene" id="sourcea">fichier de 336531 mots</a>
+					<br/>
+					
+
+				</div>
+			</div>
+		</div>
+
+			<div id="menu">
+				<h2>
+					<img src="logo.png" height="120" wigth="120">
+					<figcaption>
+						The Scrabble Resolver
+					</figcaption>
+				</h2>
+
+				<div id="sommaire">
+					<h3>
+						Sommaire
+					</h3>
+						<ul>
+							<li class="liencouleur"><a href="index.html">Présentation</a><p></li>
+							<li class="liencouleur"><a href="TSR2.html">The Scrabble Resolver</a></li>
+							<li id="pomsom"><p id="pom">plus ou moins : vous le chercherez par vous même</p></li>
+							<li class="liencouleur"><a onclick="doOpenWindow('TSRR.html');" id="underline" class="liencouleur">Règles du Scrabble</a></li>
+						</ul>
+				</div>
+
+				<div id="developpeurs">
+					<h3>
+						Développeurs
+					</h3>
+
+					<p>
+						<script language="JavaScript" type="text/javascript">
+							function doOpenWindow(MyURL)
+							{
+							window.open(MyURL,null, 
+    						"height=795%,width=1425%,status=yes,toolbar=yes,menubar=yes,location=no,scrollbars=yes");
+							}
+						</script>
+						<a onclick="doOpenWindow('TSRs.html');"><ul>
+																	<li id="esteregg" class="liencouleur">ABOU JAOUDE Yann</li>
+																	<li id="esteregg" class="liencouleur">MAHOT Steve</li>
+																	<li id="esteregg" class="liencouleur">NGUYEN Pham Cyril</li>	
+																</ul>
+						</a>
+					
+					</p>
+				</div>
+
+				<div id="npage">
+					<p class="liencouleur">Page 1 > <a href="TSR2.html" class="liencouleur">Page 2</a></p>
+				</div>
+			</div>
+	</body>
+</html>
