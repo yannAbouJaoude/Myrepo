@@ -1,0 +1,6 @@
+NET "name" LOC = "G1";
+NET "name" LOC = "P4";
+NET "name" LOC = "LD0";
+NET "name" LOC = "LD1";
+NET "name" LOC = "LD2";
+NET "name" LOC = "LD3";

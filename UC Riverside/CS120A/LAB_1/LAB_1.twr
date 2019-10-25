@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Documents\Programmes\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle
+ise -v 3 -s 5 -n 3 -fastpaths -xml LAB_1.twx LAB_1.ncd -o LAB_1.twr LAB_1.pcf
+
+Design file:              LAB_1.ncd
+Physical constraint file: LAB_1.pcf
+Device,package,speed:     xc3s100e,tq144,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+BOT_A          |OUTPUT_AND     |    5.783|
+BOT_A          |OUTPUT_NAND    |    6.234|
+BOT_A          |OUTPUT_NOR     |    6.271|
+BOT_A          |OUTPUT_OR      |    5.882|
+TOP_A          |OUTPUT_AND     |    5.481|
+TOP_A          |OUTPUT_NAND    |    6.016|
+TOP_A          |OUTPUT_NOR     |    5.946|
+TOP_A          |OUTPUT_OR      |    5.557|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 09 10:33:13 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4487 MB
+
+
+

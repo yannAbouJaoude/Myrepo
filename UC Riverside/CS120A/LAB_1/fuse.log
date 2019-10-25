@@ -1,0 +1,30 @@
+Running: D:\Documents\Programmes\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Documents/Xilinx project/LAB_1/LAB_1_LAB_1_sch_tb_isim_beh.exe -prj D:/Documents/Xilinx project/LAB_1/LAB_1_LAB_1_sch_tb_beh.prj work.LAB_1_LAB_1_sch_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Documents/Xilinx project/LAB_1/LAB_1_VERILOGTest.v" into library work
+Analyzing Verilog file "D:/Documents/Programmes/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "D:/Documents/Xilinx project/LAB_1/LAB_1.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 170548 KB
+Fuse CPU Usage: 249 ms
+Compiling module LAB_1_LAB_1_sch_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture nand2_v of entity NAND2 [nand2_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture nor2_v of entity NOR2 [nor2_default]
+Compiling architecture behavioral of entity LAB_1 [lab_1_default]
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable D:/Documents/Xilinx project/LAB_1/LAB_1_LAB_1_sch_tb_isim_beh.exe
+Fuse Memory Usage: 191384 KB
+Fuse CPU Usage: 483 ms

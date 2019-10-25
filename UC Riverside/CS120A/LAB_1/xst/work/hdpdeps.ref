@@ -1,0 +1,8 @@
+V3 8
+FL "D:/Documents/Xilinx project/LAB_1/LAB_1.vhf" 2018/10/09.09:44:52 P.20131013
+EN work/LAB_1 1539106362 FL "D:/Documents/Xilinx project/LAB_1/LAB_1.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/LAB_1/BEHAVIORAL 1539106363 \
+      FL "D:/Documents/Xilinx project/LAB_1/LAB_1.vhf" EN work/LAB_1 1539106362 \
+      CP AND2 CP NAND2 CP OR2 CP NOR2
