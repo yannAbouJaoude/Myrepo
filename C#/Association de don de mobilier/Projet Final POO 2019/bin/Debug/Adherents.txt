@@ -1,0 +1,6 @@
+﻿1;Durand;rue des Sablons Paris;0102030405;Arthur;president
+2;Dupond;rue de la République Paris;0103047676;Simon;tresorier
+3;Courty;rue Huchette Paris;0135362578;Valentin;membre
+4;Legrand;rue Pompidou Paris;0178766567;Claude;membre
+5;Lepetit;rue Mitterand Paris;0698788237;Claudine;membre
+6;Legros;rue FelixFaure Paris;0176789876;Claire;membre

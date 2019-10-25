@@ -1,0 +1,6 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD2 datascience\TD2 datascience\bin\Debug\TD2 datascience.exe.config
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD2 datascience\TD2 datascience\bin\Debug\TD2 datascience.exe
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD2 datascience\TD2 datascience\bin\Debug\TD2 datascience.pdb
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD2 datascience\TD2 datascience\obj\Debug\TD2 datascience.csprojResolveAssemblyReference.cache
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD2 datascience\TD2 datascience\obj\Debug\TD2 datascience.exe
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD2 datascience\TD2 datascience\obj\Debug\TD2 datascience.pdb

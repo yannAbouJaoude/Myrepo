@@ -1,0 +1,3 @@
+1;Leforgeron;rue de la Convention Paris;0198909887;Armand;10/10/1930
+2;Lemarechal;rue Molitor Paris;0121298731;Amandine;11/02/1928
+3;Levaillant;rue de la Gare Paris;0123988776;Louise:23/03/1934
