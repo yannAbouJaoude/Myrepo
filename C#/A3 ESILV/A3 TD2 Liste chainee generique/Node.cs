@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TD3_POO_liste_generique
+{
+    class Node<T>
+    {
+        public T data;
+        public Node<T> next;
+        public Node(T data)
+        {
+            this.data = data;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\A4 TD1 design pattern\A4 TD1 design pattern\bin\Debug\A4 TD1 design pattern.exe.config
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\A4 TD1 design pattern\A4 TD1 design pattern\bin\Debug\A4 TD1 design pattern.exe
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\A4 TD1 design pattern\A4 TD1 design pattern\bin\Debug\A4 TD1 design pattern.pdb
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\A4 TD1 design pattern\A4 TD1 design pattern\obj\Debug\A4 TD1 design pattern.csprojResolveAssemblyReference.cache
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\A4 TD1 design pattern\A4 TD1 design pattern\obj\Debug\A4 TD1 design pattern.exe
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\A4 TD1 design pattern\A4 TD1 design pattern\obj\Debug\A4 TD1 design pattern.pdb

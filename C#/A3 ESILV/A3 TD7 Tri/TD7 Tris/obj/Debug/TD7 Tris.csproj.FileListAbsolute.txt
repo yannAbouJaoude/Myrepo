@@ -1,0 +1,6 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD7 Tris\TD7 Tris\bin\Debug\TD7 Tris.exe.config
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD7 Tris\TD7 Tris\bin\Debug\TD7 Tris.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD7 Tris\TD7 Tris\bin\Debug\TD7 Tris.pdb
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD7 Tris\TD7 Tris\obj\Debug\TD7 Tris.csprojResolveAssemblyReference.cache
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD7 Tris\TD7 Tris\obj\Debug\TD7 Tris.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD7 Tris\TD7 Tris\obj\Debug\TD7 Tris.pdb
