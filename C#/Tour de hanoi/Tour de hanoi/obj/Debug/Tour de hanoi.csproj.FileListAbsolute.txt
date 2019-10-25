@@ -1,0 +1,6 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Tour de hanoi\Tour de hanoi\bin\Debug\Tour de hanoi.exe.config
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Tour de hanoi\Tour de hanoi\bin\Debug\Tour de hanoi.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Tour de hanoi\Tour de hanoi\bin\Debug\Tour de hanoi.pdb
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Tour de hanoi\Tour de hanoi\obj\Debug\Tour de hanoi.csprojResolveAssemblyReference.cache
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Tour de hanoi\Tour de hanoi\obj\Debug\Tour de hanoi.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Tour de hanoi\Tour de hanoi\obj\Debug\Tour de hanoi.pdb

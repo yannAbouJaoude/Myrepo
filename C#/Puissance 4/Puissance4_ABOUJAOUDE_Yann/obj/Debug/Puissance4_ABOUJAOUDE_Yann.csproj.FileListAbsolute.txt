@@ -1,0 +1,7 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Puissance4_ABOUJAOUDE_Yann\Puissance4_ABOUJAOUDE_Yann\bin\Debug\Puissance4_ABOUJAOUDE_Yann.exe.config
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Puissance4_ABOUJAOUDE_Yann\Puissance4_ABOUJAOUDE_Yann\bin\Debug\Puissance4_ABOUJAOUDE_Yann.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Puissance4_ABOUJAOUDE_Yann\Puissance4_ABOUJAOUDE_Yann\bin\Debug\Puissance4_ABOUJAOUDE_Yann.pdb
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Puissance4_ABOUJAOUDE_Yann\Puissance4_ABOUJAOUDE_Yann\obj\Debug\Puissance4_ABOUJAOUDE_Yann.csprojResolveAssemblyReference.cache
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Puissance4_ABOUJAOUDE_Yann\Puissance4_ABOUJAOUDE_Yann\obj\Debug\Puissance4_ABOUJAOUDE_Yann.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\Puissance4_ABOUJAOUDE_Yann\Puissance4_ABOUJAOUDE_Yann\obj\Debug\Puissance4_ABOUJAOUDE_Yann.pdb
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\Puissance4_ABOUJAOUDE_Yann\Puissance4_ABOUJAOUDE_Yann\bin\Debug\Puissance4_GUI.dll

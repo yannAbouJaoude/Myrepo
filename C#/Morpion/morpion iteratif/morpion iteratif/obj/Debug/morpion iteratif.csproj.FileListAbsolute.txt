@@ -1,0 +1,2 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\morpion iteratif\morpion iteratif\bin\Debug\morpion iteratif.exe.config
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\morpion iteratif\morpion iteratif\obj\Debug\morpion iteratif.csprojResolveAssemblyReference.cache
