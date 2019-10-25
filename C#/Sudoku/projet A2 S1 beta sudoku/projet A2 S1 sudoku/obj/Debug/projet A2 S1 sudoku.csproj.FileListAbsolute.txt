@@ -1,0 +1,6 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2 S1 sudoku\projet A2 S1 sudoku\bin\Debug\projet A2 S1 sudoku.exe.config
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2 S1 sudoku\projet A2 S1 sudoku\bin\Debug\projet A2 S1 sudoku.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2 S1 sudoku\projet A2 S1 sudoku\bin\Debug\projet A2 S1 sudoku.pdb
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2 S1 sudoku\projet A2 S1 sudoku\obj\Debug\projet A2 S1 sudoku.csprojResolveAssemblyReference.cache
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2 S1 sudoku\projet A2 S1 sudoku\obj\Debug\projet A2 S1 sudoku.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2 S1 sudoku\projet A2 S1 sudoku\obj\Debug\projet A2 S1 sudoku.pdb

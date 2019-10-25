@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>projet A2S2V2</name>
+    </assembly>
+    <members>
+        <member name="M:projet_A2S2V2.MyImage.#ctor(System.String)">
+            <summary>
+            Constructeur MyImage à partir d'une image existante
+            </summary>
+            <param name="myfile"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructeur MyImage a partir de ses dimensions
+            </summary>
+            <param name="hauteur"></param>
+            <param name="largeur"></param>
+            <param name="rouge"></param>
+            <param name="vert"></param>
+            <param name="bleu"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.From_Image_To_File(System.String)">
+            <summary>
+            Transforme un objet MyImage en un fichier bmp
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Convertir_Endian_To_Int(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Convertie un nombre en base 256 se lisant de gauche a droite dans la base 10 de droite a gauche
+            </summary>
+            <param name="tab"></param>
+            <param name="position"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Convertir_Int_To_Endian(System.Int32,System.Int32)">
+            <summary>
+            Convertie un nombre en base 10 se lisant de droite a gauche dans la base 256  de gauche a droite.
+            </summary>
+            <param name="val"></param>
+            <param name="tailleResultat"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.rotation90">
+            <summary>
+            Effectue une rotation de l'image de 90° en sens indirecte (sens horaire).
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.rotation180">
+            <summary>
+            Effectue deux rotation de l'image de 90° en sens indirecte (sens horaire).
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.rotation270">
+            <summary>
+            Effectue trois rotation de l'image de 90° en sens indirecte (sens horaire) soit une rotation de 90° en sens anti-horaire.
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Agrandir(System.Int32,System.Int32)">
+            <summary>
+            Multiplie un certain nombre entier de fois  la hauteur d'une Image et sa largeur.
+            La hauteur etla largeur sont geré indépendamment
+            On peux donc ainsi, alonger une image , l'élargir etc
+            Pour avoir  un simple agrandissement, il suffit d'avoir le meme multiplicateur en hauteur et largeur
+            </summary>
+            <param name="multiplicateurHauteur"></param>
+            <param name="multiplicateurLargeur"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Retrecir(System.Int32,System.Int32)">
+            <summary>
+            Divise un certain nombre entier de fois  la hauteur d'une Image et sa largeur.
+            La hauteur etla largeur sont geré indépendamment
+            On peux donc ainsi affiner une image , l'aplatir etc
+            Pour avoir  un simple rétrécissement, il suffit d'avoir le meme diviseur en hauteur et largeur
+            </summary>
+            <param name="diviseurHauteur"></param>
+            <param name="diviseurLargeur"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Redimmensionner(System.Double,System.Double)">
+            <summary>
+            Redimmensionne la hauteur d'une Image et sa largeur.
+            La hauteur etla largeur sont geré indépendamment
+            On cherche l'écriture fractionnaire des coefficient demandé afin d'obtenir des entiers
+            Puis cette fonction Appel les fonction aggrandir et retrecir
+            </summary>
+            <param name="coefficientHauteur"></param>
+            <param name="coefficientLargeur"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.ApproximationDUneFraction(System.Int32[])">
+            <summary>
+            Utile pour le redimmensionnement
+            Sert a réduire le nombre de calcul
+            Par exemple, le coefficient 2,01 a pour ecriture fractionnaire 201/100
+            Soit un agrandissement de 201 et un retrecissement de 100, dépassant la minute
+            Pour finalement un résultat extremement proche de celui du coefficient 2
+            Cette fonction fera l'approximation de la fraction 201/100 pour la remplacer par 2/1 dans notre exemple.
+            </summary>
+            <param name="fraction"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.nombrefractionnaire(System.Double)">
+            <summary>
+            Utile pour le redimmensionnement
+            Le dividende sera le coefficient d'aggrandissement
+            Le diviseur sera le coefficient de retrecissement
+            La fraction est déterminer grace au PGCD
+            </summary>
+            <param name="coefficient"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.PGCD(System.Int32,System.Int32)">
+            <summary>
+            Utile pour derterminer le nombre fractionnaire issue du coefficient du redimmensionnement
+            Méthode récursive, récupéré dans un cours de 3eme
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Superposition(projet_A2S2V2.MyImage)">
+            <summary>
+            Superpose laseconde image sur la premiere
+            Lesimages sont aligné en bas a gauche
+            Les pixels d'une image sortant de la dimension de l'autre image sont afficher avec des couleur/2
+            </summary>
+            <param name="SecondeImage"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.NuanceNoirEtBlanc">
+            <summary>
+            Replace chaque couleur de chaque pixel par la moyenne des couleur de son pixel
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.SansNuanceNoirEtBlanc">
+            <summary>
+            Appel Nuance noir et blanc puis assigne la couleur noir au case noir ou gris foncé et blanche au autres
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.AppliquerConvMatrice(System.Int32[0:,0:],System.Int32)">
+            <summary>
+            Applique une matrice de convolution 3*3 à une image. 
+            Les contours n'étant pas touchée par la matrice, ilsont gardé intacte en étant directement copié de l'ancienne matrice de pixel à la nouvelle
+            </summary>
+            <param name="convMatrice"></param>
+            <param name="diviseur"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Flou">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.AugmenterLeContraste">
+            <summary>
+            Applique une matrice de convolution du flou à une image.
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.RenforcementDesBord">
+            <summary>
+            Applique une matrice de convolution du renforcement des bords à une image.
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.DetectionDesBords">
+            <summary>
+            Applique une matrice de convolution de la detection des bords à une image.
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Repoussage">
+            <summary>
+            Applique une matrice de convolution du reppoussage à une image.
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.max(System.Int32,System.Int32)">
+            <summary>
+            Renvoie le maximum des 2 entiers
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.min(System.Int32,System.Int32)">
+            <summary>
+            Renvoie le minimum des 2 entiers
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="F:projet_A2S2V2.MyImage.compteur">
+            <summary>
+            Utile pour afficher le pourcentage de calculs des opérations les plus longues
+            </summary>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.EtatChargement(System.Int32)">
+            <summary>
+            Affiche le pourcentage de calculs des opérations les plus longues
+            </summary>
+            <param name="total"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.TracerUnSegment(System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Byte,System.Byte,System.Byte,System.Int32)">
+            <summary>
+            Trace un segment d'un point A à un point B
+            On trouve l'équation de droite y=Ax+b ou x=y
+            et on regarde pour chaque pixel si il vérifie l'équation dans l'interval [Ax, Bx] ou [Ay,By]
+            Linterval de tolérance lors de la vérification de l'équation determine l'épaisseur
+            </summary>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <param name="epaisseur"></param>
+            <param name="rouge"></param>
+            <param name="vert"></param>
+            <param name="bleu"></param>
+            <param name="chargement"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.polygone(System.Int32,System.Int32,System.Double,System.Int32,System.Double,System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Appel la fonction tracer un Segment avec la coordonné des points des segment a tracer
+            Pour cela on se déplace sur un cercle avec un pas de 2 *pi/ nombredecote
+            Le polygone sera inscrit dans ce cercle
+            </summary>
+            <param name="centreX"></param>
+            <param name="centreY"></param>
+            <param name="rayon"></param>
+            <param name="nombredecote"></param>
+            <param name="epaisseur"></param>
+            <param name="rouge"></param>
+            <param name="vert"></param>
+            <param name="bleu"></param>
+            
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Etoile(System.Int32,System.Int32,System.Double,System.Int32,System.Double,System.Byte,System.Byte,System.Byte,System.Double)">
+            <summary>
+            Appel la fonction tracer un Segment avec la coordonné des points des segment a tracer
+            Pour cela on se déplace sur 2 cercle avec un pas de 2 *pi/ nombredecote
+            L'origine radial d'un des cercle est décalé de pi/ nombredecote
+            Les coordonnés des points sont les meme que pour 2 polygones 
+            </summary>
+            <param name="centreX"></param>
+            <param name="centreY"></param>
+            <param name="rayon"></param>
+            <param name="nombredecote"></param>
+            <param name="epaisseur"></param>
+            <param name="rouge"></param>
+            <param name="vert"></param>
+            <param name="bleu"></param>
+            <param name="rayon2"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.fractalMandelbrot(System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            Dessine une fractal qui remplace l'image
+            L'ensemble de Mandelbrot donné dans à la sortie peut être trompeur, car il y a plein de couleurs, mais en réalité la fractale n'est qu'une figure.
+            l'ensemble de Mandelbrot est une fractale définie comme l'ensemble des points c du plan complexe pour lesquels la suite de nombres complexes définie par récurrence par :
+            Z indice(0)=0;
+            Z indice(n+1)=Z²indice(n) +c 
+            </summary>
+            <param name="ZOOM"></param>
+            <param name="START_Y"></param>
+            <param name="START_X"></param>
+            <param name="MAX_ITERATION"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.fractalJulia(System.Double,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Byte,System.Byte,System.Byte,System.Double,System.Double)">
+            <summary>
+            Les ensembles de Julia sont basés sur le même principe que l'ensemble de Mandelbrot. La formule est exactement la même
+            Z indice(n+1)=Z²indice(n) +c 
+            Seul les valeurs de départ c changent.
+            La fractale prend la place de l'image
+            
+            </summary>
+            <param name="x1"></param>
+            <param name="x2"></param>
+            <param name="y1"></param>
+            <param name="y2"></param>
+            <param name="zoom"></param>
+            <param name="iteration_max"></param>
+            <param name="rouge"></param>
+            <param name="vert"></param>
+            <param name="bleu"></param>
+            <param name="c_r"></param>
+            <param name="c_i"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.fractaleFlocon(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Byte,System.Byte,System.Byte,System.Int32)">
+            <summary>
+            Méthode récursive 
+            Appel tracer un segment si l'itération voulu et atteinte
+            Sinon s'appel 4 fois
+            Fournie les coordonnées nécéssaire pour tracer les segments
+            doit etre appeler 3 fois pour tracer un flocon, selon lesangle d'un triangle équilatéral
+            </summary>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <param name="level"></param>
+            <param name="epaisseur"></param>
+            <param name="rouge"></param>
+            <param name="vert"></param>
+            <param name="bleu"></param>
+            <param name="chargement"></param>
+        </member>
+        <member name="M:projet_A2S2V2.MyImage.Histogramme">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:projet_A2S2V2.MyImage.petiteDimension">
+            <summary>
+            Rend disponible en lecture la plus petite des dimensions (hauteur ou largeur) d'une image 
+            </summary>
+        </member>
+        <member name="P:projet_A2S2V2.MyImage.LaLargeur">
+            <summary>
+            Rend disponible en lecture la largeur d'une image
+            </summary>
+        </member>
+        <member name="P:projet_A2S2V2.MyImage.LaHauteur">
+            <summary>
+            Rend disponible en lecture la hauteur d'une image
+            </summary>
+        </member>
+    </members>
+</doc>

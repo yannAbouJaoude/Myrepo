@@ -1,0 +1,7 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2S2V2\projet A2S2V2\bin\Debug\projet A2S2V2.exe.config
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2S2V2\projet A2S2V2\bin\Debug\projet A2S2V2.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2S2V2\projet A2S2V2\bin\Debug\projet A2S2V2.pdb
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2S2V2\projet A2S2V2\obj\Debug\projet A2S2V2.csprojResolveAssemblyReference.cache
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2S2V2\projet A2S2V2\obj\Debug\projet A2S2V2.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\projet A2S2V2\projet A2S2V2\obj\Debug\projet A2S2V2.pdb
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\projet A2S2V2\projet A2S2V2\bin\Debug\projet A2S2V2.XML
