@@ -1,0 +1,6 @@
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD3 datascience sudoku\TD3 datascience sudoku\bin\Debug\TD3 datascience sudoku.exe.config
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD3 datascience sudoku\TD3 datascience sudoku\bin\Debug\TD3 datascience sudoku.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD3 datascience sudoku\TD3 datascience sudoku\bin\Debug\TD3 datascience sudoku.pdb
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD3 datascience sudoku\TD3 datascience sudoku\obj\Debug\TD3 datascience sudoku.csprojResolveAssemblyReference.cache
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD3 datascience sudoku\TD3 datascience sudoku\obj\Debug\TD3 datascience sudoku.exe
+c:\users\yann abou jaoude\documents\visual studio 2015\Projects\TD3 datascience sudoku\TD3 datascience sudoku\obj\Debug\TD3 datascience sudoku.pdb
