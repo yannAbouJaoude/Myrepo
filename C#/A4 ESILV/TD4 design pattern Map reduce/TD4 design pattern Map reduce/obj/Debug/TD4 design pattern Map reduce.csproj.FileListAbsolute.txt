@@ -1,0 +1,6 @@
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD4 design pattern Map reduce\TD4 design pattern Map reduce\bin\Debug\TD4 design pattern Map reduce.exe.config
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD4 design pattern Map reduce\TD4 design pattern Map reduce\obj\Debug\TD4 design pattern Map reduce.csprojResolveAssemblyReference.cache
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD4 design pattern Map reduce\TD4 design pattern Map reduce\bin\Debug\TD4 design pattern Map reduce.exe
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD4 design pattern Map reduce\TD4 design pattern Map reduce\bin\Debug\TD4 design pattern Map reduce.pdb
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD4 design pattern Map reduce\TD4 design pattern Map reduce\obj\Debug\TD4 design pattern Map reduce.exe
+C:\Users\Yann Abou Jaoude\Documents\Visual Studio 2015\Projects\TD4 design pattern Map reduce\TD4 design pattern Map reduce\obj\Debug\TD4 design pattern Map reduce.pdb
