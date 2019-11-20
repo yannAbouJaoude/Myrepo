@@ -1,0 +1,27 @@
+Exercice 1 
+a) O(n^5)	Lors d'une addition, on néglige les termes les plus faibles
+		n^3 est négligeable face à n^5 
+b) O(2^n^1000)	n! à une complexité exponentiel 2^n
+		La puissance reviens à multiplié 1000 fois par 2^n
+		Les multiplications dans la fonction reviennent à des 
+		multiplications dans la complexitée
+		Le logarithme est négligeable.
+c) O(n*log(n))	Les multiplications dans la fonction reviennent à des 
+		multiplications dans la complexitée
+		log(n) et log(log(n) sont négligeable faceà n*log(n)
+d) O(n^7)	7n est négligeable face à n^7
+e) O(2^n)	5n et n^100, même si n^100 est très élevé, est
+		totalement négligeable face à n!
+		n! à une complexité exponentiel 2^n
+
+Exercice 2
+a) FALSE 	O(f + g) = O(MAX(f(n),g(n))
+b) TRUE
+c) TRUE
+d) FALSE	5n + 8n^2 + 100n^3 = O(n^3)
+e) FALSE	5n + 8n^^2 + 100n3 = O(n^3)
+
+Exercice 3
+a) O(nlog(n))	Nous executons mfois le programme, et a chaque fois
+		nous rentrons log(m) fois dans la boucle du k
+b) O(1)		Le nombre de "step" est fixe
