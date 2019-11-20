@@ -97,10 +97,9 @@ insert(root,47)
 
 #Exercice 4
 
-def minValue( node): 
-    current = node 
-    while(current.left): 
-        current = current.left   
+def minValue(current): 
+    if current.left: 
+        return minValue( current.left)   
     return current  
 
 print(minValue(root).value)
